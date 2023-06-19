@@ -1,0 +1,823 @@
+body{
+    width:30%
+}
+ul{
+    width:110%;
+    height:30px;
+    flex-direction: row;
+    margin-left: 910px;
+   
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+#element{
+    font-size: 30px;
+}
+.title{
+    color:blueviolet;
+    margin-left: 120px;
+    margin-top: 300px;
+    width:100%
+}
+.button1{
+    font-size: 30px;
+    border-radius: 20px;
+    border: 3px red dotted;
+    margin-left: 120px;
+    
+}
+.button2{
+    font-size: 30px;
+    border-radius: 20px;
+    border: 3px red dotted;
+    margin-left: 20px;
+  
+}
+.button2:hover,.button1:hover{
+    background-color:burlywood;
+}
+ .material-symbols-outlined{
+    visibility: hidden; 
+    
+
+}
+.first-image{
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    height:500px;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+#about-skill{
+    
+    margin-top: 50px;
+    margin-left:300px;
+    width: 800px;
+
+}
+#font{
+    font-size: 40px;
+    margin-left: 50px;
+   
+}
+#full{
+    width:700px;
+    background-color:darkslategray;
+    height:30px;
+    margin-left: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#first-hr{
+    border:5px solid blue;
+    margin-top: 250px;
+    width:300%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#second-hr{
+    border:5px solid blue;
+    margin-top: 50px;
+    width:300%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#experience{
+    color:black;
+    font-size: 50px;
+    margin-left: 300px;
+    width:50%; 
+    font-family:"Sofia", sans-serif;
+    
+}
+#logo-img{
+    margin-left: 300px;
+}
+#about-us{
+    color:black;
+    font-size: 50px;
+    margin-left: 300px;
+    width:50%;
+    font-family:"Sofia", sans-serif;
+}
+#about{
+    color:black;
+    font-size: 30px;
+    margin-left: 300px;
+    width: 200%;
+}
+#c{
+    font-size: 20px;
+    position: absolute;
+    top:0;
+    margin-top: 1820px;
+    border-radius: 50px;
+    left:0;
+    margin-left: 470px;
+    color:blueviolet
+}
+#color_change{
+    height: 200px;
+    width:60px;
+    position: absolute;
+    background-color: red;
+    right:0;
+    top:0;
+    border-bottom-left-radius:30px ;
+}
+ #contactme{
+    width: 333%;
+    height:170px;
+    background-color: #ff8ba7;
+    margin-top: 50px;
+}
+#contact-us{
+    color:black;
+    font-size: 50px;
+    margin-left: 360px; 
+    width:50%;
+    text-align: center;
+    font-family:"Sofia", sans-serif;
+
+}
+
+#my-skill{
+    font-size: 40px;
+    margin-left:0;
+    position: absolute;
+    top:0;
+    margin-top:780px;
+    color:black;
+    font-size: 50px;
+    margin-left:400px;
+    width:50%;
+    font-family:"Sofia", sans-serif;
+}
+.bi{
+    position: relative;
+    margin-left: 20px;
+}
+#container{
+    margin-left: 600px;
+    margin-top:20px
+}
+#fname{
+    width:500px;
+    height:40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 70px;
+    margin-top: 150px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#lname{
+    width:500px;
+    height:40px;
+    font-size: 30px;
+    margin-left: 500px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#queries{
+    font-size: 40px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 580px;
+}
+#textar{
+    margin-left: 500px;
+    width:500px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#sub{
+    font-size: 30px;
+    border-radius: 20px;
+    margin-left: 700px;
+}
+@media screen and (max-width: 600px) {
+    body{
+      background-color: white;
+      max-width: 1030%;
+    }
+    ul a {
+        display: none;
+    }
+    .first-image{
+        position: absolute;
+        left:0;
+        height:1040px;
+        margin-left: 35px;
+        border:2px solid red
+        
+    }
+    .title{
+        position: absolute;
+        display: block;
+        top:0;
+       
+        width:250%;
+        font-size: 90px;
+        left:0;
+        margin-left: 50px;
+        margin-top: 1320px;
+    }
+    #element{
+        font-size: 90px;
+    }
+    .button1{
+        position: absolute;
+        top:0;
+        margin-top: 1670px;
+        font-size: 100px;
+        left:0;
+        margin-left: 50px;
+    }
+    .button2{
+        position: absolute;
+        top:0;
+        margin-top: 1670px;
+        font-size: 100px;
+        left:0;
+        margin-left: 500px;
+    }
+    #first-hr{
+        margin-top: 1800px;
+        width:830%;
+        margin-left: 50px;
+    }
+   #about-skill{
+    position: absolute;
+    left:0;
+    margin-left: 200px;
+    
+   }
+   #font{
+    font-size: 100px;
+   }
+   #second-hr{
+    border:5px solid blue;
+    margin-top: 1400px;
+    width:835%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#my-skill{
+    position: absolute;
+    top:-830px;
+    font-size: 80px;
+    margin-left:300px;
+    width:50%;
+    font-family:"Sofia", sans-serif;
+}
+ #about-us{
+    color:black;
+    font-size: 100px;
+    margin-left: 250px;
+    width:400%;
+    font-family:"Sofia", sans-serif;
+} 
+#about{
+    color:black;
+    font-size: 50px;
+    margin-left: 250px;
+    width: 620%;
+}
+#experience{
+    color:black;
+    font-size: 100px;
+    position: absolute;
+    top:0;
+    margin-top: 3750px;
+    right:0;
+    left:0;
+    margin-left: 250px;
+    font-family:"Sofia", sans-serif;
+    
+}
+#horizontal{
+    height:250px;
+    width:10px;
+    background-color: rgb(49, 44, 44);
+    position: absolute;
+    top:0;
+    margin-top: 3680px;
+    border-radius: 50px;
+    right:0;
+    margin-right: 100px;
+}
+#vertical{
+    height:10px;
+    width:100px;
+    background-color: rgb(49, 44, 44);
+    position: absolute;
+    top:0;
+    margin-top: 3780px;
+    border-radius: 50px;
+    right:0;
+    margin-right: 10px;
+
+}
+#third-hr{
+    border:5px solid blue;
+    margin-top: 600px;
+    width:800%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#logo-img{
+    margin-left: 300px;
+    margin-top: 220px;
+    height: 80px;
+}
+#c{
+     font-size: 30px;
+    position: absolute;
+    top:0;
+    width:300px;
+    margin-top: 3920px;
+    margin-left: 520px;
+}
+#contact-us{
+    color:black;
+    font-size: 80px;
+    margin-left: 260px;
+    font-family:"Sofia", sans-serif;
+}
+#contactme{
+    width: 920.5%;
+    height:170px;
+    background-color:#ff8ba7;
+    margin-top: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#container{
+    margin-left: 400px;
+    margin-top:10px
+}
+#fname{
+    width:500%;
+    height:70px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 250px;
+    left:0;
+    margin-left: 250px;
+}
+#lname{
+    width:500%;
+    height:70px;
+    font-size: 30px;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#queries{
+    font-size: 100px;
+    width:900px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#textar{
+    margin-left: 250px;
+    width:500%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#sub{
+    font-size: 60px;
+    border-radius: 20px;
+    margin-left: 440px;
+}
+  }
+  @media screen and (max-width: 375px) {
+    body{
+      background-color: white;
+      max-width: 100%;
+    }
+    ul a {
+        display: none;
+    }
+    .first-image{
+        position: absolute;
+        left:0;
+        height:1040px;
+        margin-left: 30px;
+        border:2px solid red
+        
+    }
+    .title{
+        position: absolute;
+        display: block;
+        top:0;
+       
+        width:250%;
+        font-size: 90px;
+        left:0;
+        margin-left: 50px;
+        margin-top: 1320px;
+    }
+    #element{
+        font-size: 90px;
+    }
+    .button1{
+        position: absolute;
+        top:0;
+        margin-top: 1900px;
+        font-size: 100px;
+        left:0;
+        margin-left: 50px;
+    }
+    .button2{
+        position: absolute;
+        top:0;
+        margin-top: 1600px;
+        font-size: 100px;
+        left:0;
+        margin-left: 500px;
+    }
+    #first-hr{
+        margin-top: 1750px;
+        width:800%;
+        margin-left: 50px;
+    }
+   #about-skill{
+    position: absolute;
+    left:0;
+    margin-left: 200px;
+    
+   }
+   #font{
+    font-size: 100px;
+   }
+   #second-hr{
+    border:5px solid blue;
+    margin-top: 1400px;
+    width:800%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#my-skill{
+    position: absolute;
+    top:-830px;
+    font-size: 80px;
+    margin-left:300px;
+    width:50%;
+    font-family:"Sofia", sans-serif;
+}
+ #about-us{
+    color:black;
+    font-size: 100px;
+    margin-left: 250px;
+    width:400%;
+    font-family:"Sofia", sans-serif;
+} 
+#about{
+    color:black;
+    font-size: 50px;
+    margin-left: 250px;
+    width: 620%;
+}
+#experience{
+    color:black;
+    font-size: 100px;
+    position: absolute;
+    top:0;
+    margin-top: 3700px;
+    right:0;
+    left:0;
+    margin-left: 250px;
+    font-family:"Sofia", sans-serif;
+    
+}
+#horizontal{
+    height:250px;
+    width:10px;
+    background-color: rgb(49, 44, 44);
+    position: absolute;
+    top:0;
+    margin-top: 3680px;
+    border-radius: 50px;
+    right:0;
+    margin-right: 100px;
+}
+#vertical{
+    height:10px;
+    width:100px;
+    background-color: rgb(49, 44, 44);
+    position: absolute;
+    top:0;
+    margin-top: 3780px;
+    border-radius: 50px;
+    right:0;
+    margin-right: 10px;
+
+}
+#third-hr{
+    border:5px solid blue;
+    margin-top: 600px;
+    width:800%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#logo-img{
+    margin-left: 300px;
+    margin-top: 220px;
+    height: 80px;
+}
+#c{
+     font-size: 30px;
+    position: absolute;
+    top:0;
+    width:300px;
+    margin-top: 3850px;
+    margin-left: 520px;
+}
+#contact-us{
+    color:black;
+    font-size: 80px;
+    margin-left: 240px;
+    font-family:"Sofia", sans-serif;
+}
+#contactme{
+    width: 860%;
+    height:170px;
+    background-color:#ff8ba7;
+    margin-top: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#container{
+    margin-left: 400px;
+    margin-top:10px
+}
+#fname{
+    width:500%;
+    height:70px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 250px;
+    left:0;
+    margin-left: 250px;
+}
+#lname{
+    width:500%;
+    height:70px;
+    font-size: 30px;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#queries{
+    font-size: 100px;
+    width:800px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#textar{
+    margin-left: 250px;
+    width:500%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#sub{
+    font-size: 60px;
+    border-radius: 20px;
+    margin-left: 480px;
+}
+  }
+@media screen and (max-width:376px){
+    .button1{
+        position: absolute;
+        top:0;
+        margin-top: 1580px;
+        font-size: 100px;
+        left:0;
+        margin-left: 50px;
+    }
+    
+    .button2{
+        position: absolute;
+        top:0;
+        margin-top: 1580px;
+        font-size: 100px;
+        left:0;
+        margin-left: 500px;
+    }
+    #experience{
+        color:black;
+        font-size: 100px;
+        position: absolute;
+        top:0;
+        margin-top: 3800px;
+        right:0;
+        left:0;
+        margin-left: 250px;
+        font-family:"Sofia", sans-serif;
+        
+    }
+    #c{
+        font-size: 30px;
+       position: absolute;
+       top:0;
+       width:300px;
+       margin-top: 3950px;
+       margin-left: 520px;
+   }
+   #textar{
+    margin-left: 250px;
+    width:582px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.first-image{
+    position: absolute;
+    left:0;
+    height:1040px;
+    margin-left: 20px;
+    border:2px solid red
+    
+}
+
+#contactme{
+    width: 940%;
+    height:170px;
+    background-color: #ff8ba7;
+    margin-top: 50px;
+}
+#contact-us{
+    color:black;
+    font-size: 80px;
+    margin-left: 270px;
+    font-family:"Sofia", sans-serif;
+}
+#container{
+    margin-left: 400px;
+    margin-top:-10px
+}
+#sub{
+    font-size: 60px;
+    border-radius: 20px;
+    margin-left: 450px;
+}
+.title{
+    position: absolute;
+    display: block;
+    top:0;
+   
+    width:250%;
+    font-size: 80px;
+    left:0;
+    margin-left: 50px;
+    margin-top: 1320px;
+}
+#element{
+    font-size: 90px;
+}
+#first-hr{
+    margin-top: 1750px;
+    width:840%;
+    margin-left: 50px;
+}
+#second-hr{
+    border:5px solid blue;
+    margin-top: 1400px;
+    width:840%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#logo-img{
+    margin-left: 300px;
+    margin-top: 320px;
+    height: 80px;
+}
+}
+@media screen and (max-width:376px){
+    .title{
+        position: absolute;
+        display: block;
+        top:0;
+       
+        width:250%;
+        font-size: 70px;
+        left:0;
+        margin-left: 50px;
+        margin-top: 1320px;
+    }
+    #element{
+        font-size: 70px;
+    }
+    .first-image{
+        position: absolute;
+        left:-10px;
+        height:1000px;
+        border:2px solid red
+        
+    }
+    .button1{
+        position: absolute;
+        top:0;
+        margin-top: 1520px;
+        font-size: 100px;
+        left:0;
+        margin-left: 50px;
+    }
+    
+    .button2{
+        position: absolute;
+        top:0;
+        margin-top: 1520px;
+        font-size: 100px;
+        left:0;
+        margin-left: 500px;
+    }
+    #first-hr{
+        margin-top: 1750px;
+        width:940%;
+        margin-left: 50px;
+    }
+    #second-hr{
+        border:5px solid blue;
+        margin-top: 1400px;
+        width:940%;
+        margin-left: 50px;
+        border-radius: 20px;
+    }
+    #about-skill{
+        position: absolute;
+        left:0;
+        margin-left: 120px;
+        
+       }
+       #experience{
+        color:black;
+        font-size: 100px;
+        position: absolute;
+        top:0;
+        margin-top: 3800px;
+        right:0;
+        left:0;
+        margin-left: 200px;
+        font-family:"Sofia", sans-serif;
+        
+    }
+    #about-us{
+        color:black;
+        font-size: 100px;
+        margin-left: 200px;
+        width:420%;
+        font-family:"Sofia", sans-serif;
+    }
+    #about{
+        color:black;
+        font-size: 50px;
+        margin-left: 200px;
+        width: 620%;
+    }
+    #logo-img{
+        margin-left: 200px;
+        margin-top: 250px;
+        height: 80px;
+    }
+  #c{
+    position: absolute;
+    left:0;
+    margin-left: 400px;
+  }
+  #queries{
+    font-size: 80px;
+    margin-left: 190px;
+  }
+  #textar{
+
+    width:480px;
+}
+#sub{
+    font-size: 50px;
+    border-radius: 20px;
+    margin-left: 410px;
+}
+#contactme{
+    width: 1100%;
+    height:170px;
+    background-color: #ff8ba7;
+    margin-top: 50px;
+}
+}
+
+
+     
